@@ -4,10 +4,6 @@ export default function ShowHome({ navigation }: any) {
   return (
     <View style={styles.container}>
       <Text>This is Home!</Text>
-      <Button
-        title="Leave Home"
-        onPress={() => navigation.navigate("LeaveHome")}
-      />
     </View>
   );
 }
