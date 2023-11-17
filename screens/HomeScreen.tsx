@@ -9,7 +9,6 @@ export default function HomeScreen({ navigation }: any) {
         title="Show Home"
         onPress={() => navigation.navigate("ShowHome")}
       />
-      <Button title="Drawer" onPress={() => navigation.openDrawer()} />
     </View>
   );
 }
