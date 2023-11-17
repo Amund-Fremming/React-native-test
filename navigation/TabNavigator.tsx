@@ -7,8 +7,13 @@ const Tab = createBottomTabNavigator();
 export default function TabNavigator() {
   return (
     <Tab.Navigator>
-      <Tab.Screen name="HomeStack" component={HomeStackNavigator}></Tab.Screen>
       <Tab.Screen
+        name="HomeStack"
+        component={HomeStackNavigator}
+        options={{ headerShown: false }}
+      ></Tab.Screen>
+      <Tab.Screen
+        options={{ headerShown: false }}
         name="ProfileStack"
         component={ProfileStackNavigator}
       ></Tab.Screen>

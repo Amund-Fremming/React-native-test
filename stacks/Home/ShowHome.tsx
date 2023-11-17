@@ -1,9 +1,13 @@
-import { View, Text, StyleSheet } from "react-native";
+import { View, Text, StyleSheet, Button } from "react-native";
 
-export default function ShowHome() {
+export default function ShowHome({ navigation }: any) {
   return (
     <View style={styles.container}>
       <Text>This is Home!</Text>
+      <Button
+        title="Leave Home"
+        onPress={() => navigation.navigate("LeaveHome")}
+      />
     </View>
   );
 }
