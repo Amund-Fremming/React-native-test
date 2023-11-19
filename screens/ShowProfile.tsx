@@ -1,17 +1,12 @@
-import { View, Text, StyleSheet } from "react-native";
+import { View, Image, StyleSheet } from "react-native";
 
 export default function ShowProfile() {
-  return (
-    <View style={styles.container}>
-      <Text>This is the Profile!</Text>
-    </View>
-  );
+  return <View style={styles.container}></View>;
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "cyan",
     alignItems: "center",
     justifyContent: "center",
   },

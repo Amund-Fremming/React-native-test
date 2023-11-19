@@ -16,7 +16,6 @@ export default function Profile({ navigation }: any) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "blue",
     alignItems: "center",
     justifyContent: "center",
   },
