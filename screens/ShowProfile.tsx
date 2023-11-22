@@ -6,7 +6,7 @@ export default function ShowProfile() {
     <View style={styles.container}>
       <Image
         source={require("../assets/splash.png")}
-        style={{ width: "40%", height: "40%" }}
+        style={{ width: "100%", height: "100%" }}
       />
     </View>
   );
