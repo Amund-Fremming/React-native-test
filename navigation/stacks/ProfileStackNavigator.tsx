@@ -10,7 +10,7 @@ export default function ProfileStackNavigator() {
       <ProfileStack.Screen
         name="Profile"
         component={Profile}
-        options={{ headerShown: false }}
+        options={{ headerShown: true }}
       />
       <ProfileStack.Screen name="ShowProfile" component={ShowProfile} />
     </ProfileStack.Navigator>

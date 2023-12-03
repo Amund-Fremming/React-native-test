@@ -23,7 +23,7 @@ export default function TabNavigator() {
               iconName = "home";
               break;
             case "ProfileStack":
-              iconName = "settings";
+              iconName = "profile";
               break;
           }
 
