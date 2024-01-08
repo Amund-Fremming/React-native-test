@@ -1,6 +1,6 @@
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import ShowHome from "../../screens/ShowHome";
-import Home from "../../screens/Home";
+import ShowHome from "../../screens/home/ShowHome";
+import Home from "../../screens/home/Home";
 
 const HomeStack = createNativeStackNavigator();
 
